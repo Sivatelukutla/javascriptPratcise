@@ -287,3 +287,97 @@
 
 // console.log(count)
 
+// let arr = [1,2,3];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         let sum = arr[i] + arr[j]
+//         let count = 0;
+//         for(let k=2;k<=sum;k++){
+//             if(sum % k === 0){
+//                 count += 1
+//             }
+//         }
+//         if(count === 1){
+//             console.log(arr[i], arr[j])
+//         }
+//     }
+// }
+
+
+// let arr = [3,1,5,4,2];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         if(arr[i] < arr[j]){
+//             console.log(arr[i], arr[j])
+//         }
+//     }
+// }
+
+
+// let arr = [4,9,2,7,5];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         if(arr[j]>arr[i]){
+//             console.log(arr[i], arr[j]);
+//         }
+//     }
+// }
+
+// let arr = [2,3,5,7,9];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         let firstNum = arr[i];
+//         let secondNum = arr[j];
+//         let firstCount = 0;
+//         let secondCount = 0;
+//         for(let k=1;k<=firstNum;k++){
+//             if(firstNum % k == 0){
+//                 firstCount = firstCount + 1;
+//             }
+//         }
+//         for(let l=1;l<=secondNum;l++){
+//             if(secondNum % l == 0){
+//                 secondCount = secondCount + 1;
+//             }
+//         }
+//         if(firstCount == 2 & secondCount == 2){
+//             console.log(arr[i],arr[j])
+//         }
+//     }
+// }
+
+
+// let arr = [1,2,3,6,4,5,7]
+// let arr = [1,2,3,4,5];
+
+// let count = 0;
+
+// for(let i=0;i<arr.length;i++){
+//     count = count + 1;
+//     if(arr[i] !== count){
+//         console.log(count);
+//         break;
+//     }else{
+//         console.log("-1")
+//         break;
+//     }
+// }
+
+
+let arr = [1,2,3,4,5];
+
+for(let i=0;i<arr.length;i++){
+    let count = 0;
+    for(let j=i+1;j<arr.length;j++){
+        if(arr[i] == arr[j]){
+            count += 1
+        }
+    }
+    if(count>=2){
+        
+    }
+}
