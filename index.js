@@ -208,3 +208,82 @@
 // }
 
 // console.log(smallest)
+
+// let arr = [10, 20, 30, 40, 50, 60, 70];
+// let result;
+
+// let number = arr.length / 2
+// if (number % 2 === 0) {
+//     result = arr.slice(0, number)
+// }
+// else {
+//     result = arr.slice(0, Math.floor(number))
+// }
+
+
+
+// console.log(result)
+
+
+// let arr = [10,20,30,40,50,60,70];
+// let result;
+
+// let number = arr.length / 2
+// if (number % 2 === 0) {
+//     result = arr.slice(number, number)
+// }
+// else {
+//     result = arr.slice(Math.floor(number), arr.length);
+// }
+
+// console.log(result);
+
+// let arr = [1,2,3,4];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         console.log(arr[i], arr[j]);
+//     }
+// }
+
+// let arr = [1,2,3,4,5];
+// let num = 6;
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         if(arr[i] + arr[j] === num){
+//             console.log(arr[i], arr[j])
+//         }
+//     }
+// }
+
+// let arr = [2,4,6,3,8,9];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         let numI = arr[i];
+//         let numJ = arr[j];
+//         if(numI % 2 == 0 && numJ % 2 == 0){
+//             console.log(arr[i], arr[j])
+//         }
+//     }
+// }
+
+// let arr = [2,4,6,3,8,9,9,2,3,4,5];
+
+// let result = arr.filter((ele,index,arr)=>{
+//     return arr.indexOf(ele) == index;
+// })
+
+// console.log(result)
+
+// let arr = [1,2,3];
+// let count = 0;
+// for(let i=0;i<arr.length;i++){
+//     for(let j=i+1;j<arr.length;j++){
+//         count = count + 1
+//     }
+// }
+
+// console.log(count)
+
