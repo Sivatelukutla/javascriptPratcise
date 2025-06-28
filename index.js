@@ -368,16 +368,91 @@
 // }
 
 
-let arr = [1,2,3,4,5];
+// let arr = [1,2,3,4,5];
+// let arr1 = [3,4,5,6,7];
+// let newArray = [];
+// for(let i=0;i<arr.length;i++){
+//     if(arr[i] % 2 !== 0){
+//         for(let j=0;j<arr1.length;j++){
+//             if(arr[i] == arr1[j]){
+//                 newArray.push(arr[i])
+//             }
+//         }
+//     }
+// }
 
-for(let i=0;i<arr.length;i++){
-    let count = 0;
-    for(let j=i+1;j<arr.length;j++){
-        if(arr[i] == arr[j]){
-            count += 1
-        }
-    }
-    if(count>=2){
-        
-    }
-}
+// console.log(newArray)
+
+// let arr = [2,4,5,5,7,8];
+// let arr1 = [2,3,5,5,6,7,8];
+// let newArray = [];
+
+// for(let i=0;i<arr.length;i++){
+//     for(let j=0;j<arr1.length;j++){
+//         if(arr[i] == arr1[j]){
+//             newArray.push(arr[i])
+//         }
+//     }
+// }
+
+
+
+
+// console.log(newArray);
+
+
+
+// let arr = [2,4,5,5,7,8];
+// let arr1 =  [2,3,5,5,6,7,8];
+
+// let newArray = [];
+
+// for(let i=0;i<arr.length;i++){
+//     let count = 1;
+//     for(let j=0;j<arr1.length;j++){
+//         if(arr[i] == arr1[j]){
+//             count = count + 1;
+//         }
+//     }
+//     if(count == 1){
+//         continue
+//     }
+//     else{
+//         newArray.push(arr[i])
+//     }
+// }
+
+// console.log(newArray)
+
+// let arr = [1, 2, 3, 4, 5, 6];
+// let arr1 = [6, 5, 4, 3, 2];
+
+// let newArray = [];
+
+// for (let i = 0; i < arr.length; i++) {
+//     let count = 1;
+//     for (let j = 0; j < arr1.length; j++) {
+//         if (arr[i] == arr1[j]) {
+//             count = count + 1
+//         }
+//     }
+//     if (count == 1) {
+//         continue
+//     }
+//     else {
+//         newArray.push(arr[i])
+//     }
+// }
+
+// for (let i = 0; i < newArray.length; i++) {
+//     for (let j = i + 1; j < newArray.length; j++) {
+//         if (newArray[j] < newArray[i]) {
+//             let temp = newArray[i];
+//             newArray[i] = newArray[j];
+//             newArray[j] = temp;
+//         }
+//     }
+// }
+
+// console.log(newArray);
+
